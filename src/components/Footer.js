@@ -11,7 +11,7 @@ const Footer = () => {
     <footer>
       <Container>
         <p>
-          &copy; { new Date().getFullYear() }, <a href={authorUrl}>{ authorName }</a>
+          Comments to <a href={authorUrl}>{ authorName }</a>
         </p>
       </Container>
     </footer>
